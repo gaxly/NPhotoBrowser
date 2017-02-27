@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E2694661E63B85E002527FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2694651E63B85E002527FC /* main.m */; };
+		5E2694691E63B85E002527FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2694681E63B85E002527FC /* AppDelegate.m */; };
+		5E26946C1E63B85E002527FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E26946B1E63B85E002527FC /* ViewController.m */; };
+		5E26946F1E63B85E002527FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E26946D1E63B85E002527FC /* Main.storyboard */; };
+		5E2694711E63B85E002527FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2694701E63B85E002527FC /* Assets.xcassets */; };
+		5E2694741E63B85E002527FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2694721E63B85E002527FC /* LaunchScreen.storyboard */; };
+		5E26947F1E63B85F002527FC /* NPhotoBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E26947E1E63B85F002527FC /* NPhotoBrowserTests.m */; };
+		5E26948A1E63B85F002527FC /* NPhotoBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2694891E63B85F002527FC /* NPhotoBrowserUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E26947B1E63B85F002527FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E2694591E63B85E002527FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E2694601E63B85E002527FC;
+			remoteInfo = NPhotoBrowser;
+		};
+		5E2694861E63B85F002527FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E2694591E63B85E002527FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E2694601E63B85E002527FC;
+			remoteInfo = NPhotoBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E2694611E63B85E002527FC /* NPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2694651E63B85E002527FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E2694671E63B85E002527FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E2694681E63B85E002527FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E26946A1E63B85E002527FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E26946B1E63B85E002527FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E26946E1E63B85E002527FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E2694701E63B85E002527FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E2694731E63B85E002527FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E2694751E63B85E002527FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E26947A1E63B85F002527FC /* NPhotoBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPhotoBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E26947E1E63B85F002527FC /* NPhotoBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPhotoBrowserTests.m; sourceTree = "<group>"; };
+		5E2694801E63B85F002527FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E2694851E63B85F002527FC /* NPhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2694891E63B85F002527FC /* NPhotoBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPhotoBrowserUITests.m; sourceTree = "<group>"; };
+		5E26948B1E63B85F002527FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E26945E1E63B85E002527FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E2694771E63B85F002527FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E2694821E63B85F002527FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E2694581E63B85E002527FC = {
+			isa = PBXGroup;
+			children = (
+				5E2694631E63B85E002527FC /* NPhotoBrowser */,
+				5E26947D1E63B85F002527FC /* NPhotoBrowserTests */,
+				5E2694881E63B85F002527FC /* NPhotoBrowserUITests */,
+				5E2694621E63B85E002527FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E2694621E63B85E002527FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E2694611E63B85E002527FC /* NPhotoBrowser.app */,
+				5E26947A1E63B85F002527FC /* NPhotoBrowserTests.xctest */,
+				5E2694851E63B85F002527FC /* NPhotoBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E2694631E63B85E002527FC /* NPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				5E2694671E63B85E002527FC /* AppDelegate.h */,
+				5E2694681E63B85E002527FC /* AppDelegate.m */,
+				5E26946A1E63B85E002527FC /* ViewController.h */,
+				5E26946B1E63B85E002527FC /* ViewController.m */,
+				5E26946D1E63B85E002527FC /* Main.storyboard */,
+				5E2694701E63B85E002527FC /* Assets.xcassets */,
+				5E2694721E63B85E002527FC /* LaunchScreen.storyboard */,
+				5E2694751E63B85E002527FC /* Info.plist */,
+				5E2694641E63B85E002527FC /* Supporting Files */,
+			);
+			path = NPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		5E2694641E63B85E002527FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E2694651E63B85E002527FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E26947D1E63B85F002527FC /* NPhotoBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E26947E1E63B85F002527FC /* NPhotoBrowserTests.m */,
+				5E2694801E63B85F002527FC /* Info.plist */,
+			);
+			path = NPhotoBrowserTests;
+			sourceTree = "<group>";
+		};
+		5E2694881E63B85F002527FC /* NPhotoBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E2694891E63B85F002527FC /* NPhotoBrowserUITests.m */,
+				5E26948B1E63B85F002527FC /* Info.plist */,
+			);
+			path = NPhotoBrowserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E2694601E63B85E002527FC /* NPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E26948E1E63B85F002527FC /* Build configuration list for PBXNativeTarget "NPhotoBrowser" */;
+			buildPhases = (
+				5E26945D1E63B85E002527FC /* Sources */,
+				5E26945E1E63B85E002527FC /* Frameworks */,
+				5E26945F1E63B85E002527FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NPhotoBrowser;
+			productName = NPhotoBrowser;
+			productReference = 5E2694611E63B85E002527FC /* NPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E2694791E63B85F002527FC /* NPhotoBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E2694911E63B85F002527FC /* Build configuration list for PBXNativeTarget "NPhotoBrowserTests" */;
+			buildPhases = (
+				5E2694761E63B85F002527FC /* Sources */,
+				5E2694771E63B85F002527FC /* Frameworks */,
+				5E2694781E63B85F002527FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E26947C1E63B85F002527FC /* PBXTargetDependency */,
+			);
+			name = NPhotoBrowserTests;
+			productName = NPhotoBrowserTests;
+			productReference = 5E26947A1E63B85F002527FC /* NPhotoBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E2694841E63B85F002527FC /* NPhotoBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E2694941E63B85F002527FC /* Build configuration list for PBXNativeTarget "NPhotoBrowserUITests" */;
+			buildPhases = (
+				5E2694811E63B85F002527FC /* Sources */,
+				5E2694821E63B85F002527FC /* Frameworks */,
+				5E2694831E63B85F002527FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E2694871E63B85F002527FC /* PBXTargetDependency */,
+			);
+			name = NPhotoBrowserUITests;
+			productName = NPhotoBrowserUITests;
+			productReference = 5E2694851E63B85F002527FC /* NPhotoBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E2694591E63B85E002527FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = gaxly;
+				TargetAttributes = {
+					5E2694601E63B85E002527FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5E2694791E63B85F002527FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E2694601E63B85E002527FC;
+					};
+					5E2694841E63B85F002527FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E2694601E63B85E002527FC;
+					};
+				};
+			};
+			buildConfigurationList = 5E26945C1E63B85E002527FC /* Build configuration list for PBXProject "NPhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E2694581E63B85E002527FC;
+			productRefGroup = 5E2694621E63B85E002527FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E2694601E63B85E002527FC /* NPhotoBrowser */,
+				5E2694791E63B85F002527FC /* NPhotoBrowserTests */,
+				5E2694841E63B85F002527FC /* NPhotoBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E26945F1E63B85E002527FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2694741E63B85E002527FC /* LaunchScreen.storyboard in Resources */,
+				5E2694711E63B85E002527FC /* Assets.xcassets in Resources */,
+				5E26946F1E63B85E002527FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E2694781E63B85F002527FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E2694831E63B85F002527FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E26945D1E63B85E002527FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E26946C1E63B85E002527FC /* ViewController.m in Sources */,
+				5E2694691E63B85E002527FC /* AppDelegate.m in Sources */,
+				5E2694661E63B85E002527FC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E2694761E63B85F002527FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E26947F1E63B85F002527FC /* NPhotoBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E2694811E63B85F002527FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E26948A1E63B85F002527FC /* NPhotoBrowserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E26947C1E63B85F002527FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E2694601E63B85E002527FC /* NPhotoBrowser */;
+			targetProxy = 5E26947B1E63B85F002527FC /* PBXContainerItemProxy */;
+		};
+		5E2694871E63B85F002527FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E2694601E63B85E002527FC /* NPhotoBrowser */;
+			targetProxy = 5E2694861E63B85F002527FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E26946D1E63B85E002527FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E26946E1E63B85E002527FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E2694721E63B85E002527FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E2694731E63B85E002527FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E26948C1E63B85F002527FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E26948D1E63B85F002527FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E26948F1E63B85F002527FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaxly.NPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E2694901E63B85F002527FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaxly.NPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E2694921E63B85F002527FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaxly.NPhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NPhotoBrowser.app/NPhotoBrowser";
+			};
+			name = Debug;
+		};
+		5E2694931E63B85F002527FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaxly.NPhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NPhotoBrowser.app/NPhotoBrowser";
+			};
+			name = Release;
+		};
+		5E2694951E63B85F002527FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NPhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaxly.NPhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NPhotoBrowser;
+			};
+			name = Debug;
+		};
+		5E2694961E63B85F002527FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NPhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaxly.NPhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NPhotoBrowser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E26945C1E63B85E002527FC /* Build configuration list for PBXProject "NPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E26948C1E63B85F002527FC /* Debug */,
+				5E26948D1E63B85F002527FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E26948E1E63B85F002527FC /* Build configuration list for PBXNativeTarget "NPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E26948F1E63B85F002527FC /* Debug */,
+				5E2694901E63B85F002527FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E2694911E63B85F002527FC /* Build configuration list for PBXNativeTarget "NPhotoBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2694921E63B85F002527FC /* Debug */,
+				5E2694931E63B85F002527FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E2694941E63B85F002527FC /* Build configuration list for PBXNativeTarget "NPhotoBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2694951E63B85F002527FC /* Debug */,
+				5E2694961E63B85F002527FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E2694591E63B85E002527FC /* Project object */;
+}
