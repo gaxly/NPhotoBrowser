@@ -1,0 +1,5 @@
+target 'NPhotoBrowser' do
+pod 'YYWebImage'
+end
+
+
