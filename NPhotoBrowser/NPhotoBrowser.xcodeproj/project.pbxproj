@@ -16,6 +16,10 @@
 		5E2694741E63B85E002527FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2694721E63B85E002527FC /* LaunchScreen.storyboard */; };
 		5E26947F1E63B85F002527FC /* NPhotoBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E26947E1E63B85F002527FC /* NPhotoBrowserTests.m */; };
 		5E26948A1E63B85F002527FC /* NPhotoBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2694891E63B85F002527FC /* NPhotoBrowserUITests.m */; };
+		5E26949F1E63B9F7002527FC /* NPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2694981E63B9F7002527FC /* NPhotoBrowser.m */; };
+		5E2694A01E63B9F7002527FC /* NPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E26949A1E63B9F7002527FC /* NPhoto.m */; };
+		5E2694A11E63B9F7002527FC /* NPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E26949C1E63B9F7002527FC /* NPhotoView.m */; };
+		5E2694A21E63B9F7002527FC /* NProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E26949E1E63B9F7002527FC /* NProgressLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,14 @@
 		5E2694851E63B85F002527FC /* NPhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2694891E63B85F002527FC /* NPhotoBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPhotoBrowserUITests.m; sourceTree = "<group>"; };
 		5E26948B1E63B85F002527FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E2694971E63B9F7002527FC /* NPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPhotoBrowser.h; sourceTree = "<group>"; };
+		5E2694981E63B9F7002527FC /* NPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPhotoBrowser.m; sourceTree = "<group>"; };
+		5E2694991E63B9F7002527FC /* NPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPhoto.h; sourceTree = "<group>"; };
+		5E26949A1E63B9F7002527FC /* NPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPhoto.m; sourceTree = "<group>"; };
+		5E26949B1E63B9F7002527FC /* NPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPhotoView.h; sourceTree = "<group>"; };
+		5E26949C1E63B9F7002527FC /* NPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPhotoView.m; sourceTree = "<group>"; };
+		5E26949D1E63B9F7002527FC /* NProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NProgressLayer.h; sourceTree = "<group>"; };
+		5E26949E1E63B9F7002527FC /* NProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NProgressLayer.m; sourceTree = "<group>"; };
 		6EBD279C37FFD4B2BF0668E0 /* Pods-NPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-NPhotoBrowser/Pods-NPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
 		722A684174BF5AA9F619DC7A /* Pods-NPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NPhotoBrowser/Pods-NPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +124,14 @@
 				5E2694681E63B85E002527FC /* AppDelegate.m */,
 				5E26946A1E63B85E002527FC /* ViewController.h */,
 				5E26946B1E63B85E002527FC /* ViewController.m */,
+				5E2694971E63B9F7002527FC /* NPhotoBrowser.h */,
+				5E2694981E63B9F7002527FC /* NPhotoBrowser.m */,
+				5E2694991E63B9F7002527FC /* NPhoto.h */,
+				5E26949A1E63B9F7002527FC /* NPhoto.m */,
+				5E26949B1E63B9F7002527FC /* NPhotoView.h */,
+				5E26949C1E63B9F7002527FC /* NPhotoView.m */,
+				5E26949D1E63B9F7002527FC /* NProgressLayer.h */,
+				5E26949E1E63B9F7002527FC /* NProgressLayer.m */,
 				5E26946D1E63B85E002527FC /* Main.storyboard */,
 				5E2694701E63B85E002527FC /* Assets.xcassets */,
 				5E2694721E63B85E002527FC /* LaunchScreen.storyboard */,
@@ -348,8 +368,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E2694A01E63B9F7002527FC /* NPhoto.m in Sources */,
 				5E26946C1E63B85E002527FC /* ViewController.m in Sources */,
 				5E2694691E63B85E002527FC /* AppDelegate.m in Sources */,
+				5E2694A21E63B9F7002527FC /* NProgressLayer.m in Sources */,
+				5E26949F1E63B9F7002527FC /* NPhotoBrowser.m in Sources */,
+				5E2694A11E63B9F7002527FC /* NPhotoView.m in Sources */,
 				5E2694661E63B85E002527FC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,6 +608,7 @@
 				5E2694901E63B85F002527FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E2694911E63B85F002527FC /* Build configuration list for PBXNativeTarget "NPhotoBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +617,7 @@
 				5E2694931E63B85F002527FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E2694941E63B85F002527FC /* Build configuration list for PBXNativeTarget "NPhotoBrowserUITests" */ = {
 			isa = XCConfigurationList;
@@ -600,6 +626,7 @@
 				5E2694961E63B85F002527FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
